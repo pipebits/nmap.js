@@ -16,7 +16,7 @@ class Client extends EventEmitter {
   }
 
   intenseScan() {
-    this.customScan(["-T4", "-A", "-v", "-oX -"]);
+    this.customScan(["-T4", "-A", "-v"]);
   }
   intenseScanPlusUDP() {
     this.customScan(["-Ss", "-sU", "-T4", "-A", "-v"]);
