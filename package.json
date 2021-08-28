@@ -4,7 +4,7 @@
   "description": "A package to interact with nmap from code!",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/intenseScan.js"
   },
   "keywords": [
     "nmap",
@@ -13,9 +13,12 @@
     "http",
     "ssl"
   ],
-  "homepage": "",
+  "homepage": "https://github.com/pipebits/nmap-node/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/pipebits/nmap-node/issues"
+  },
+  "license": "MIT",
   "author": "pipebits <pipeluis777@outlook.com>",
-  "license": "ISC",
   "dependencies": {
     "child_process": "^1.0.2"
   }
