@@ -1,0 +1,22 @@
+{
+  "name": "nmap-node",
+  "version": "1.0.0",
+  "description": "A package to interact with nmap from code!",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nmap",
+    "ports",
+    "traceroute",
+    "http",
+    "ssl"
+  ],
+  "homepage": "",
+  "author": "pipebits <pipeluis777@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
